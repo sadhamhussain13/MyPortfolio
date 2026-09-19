@@ -1,4 +1,4 @@
-# AI Portfolio
+# Portfolio
 
 A modern, responsive personal portfolio website showcasing my **skills, projects, experience, and technical journey** as a software developer.
 
