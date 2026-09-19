@@ -2,9 +2,6 @@
 
 A modern, responsive personal portfolio website showcasing my **skills, projects, experience, and technical journey** as a software developer.
 
-🌐 **Live Website:** `[https://sshcreations.netlify.app](https://sshcreations.netlify.app/)`
-💻 **GitHub:** `[https://github.com/your-username](https://github.com/sadhamhussain13)`
-
 ---
 
 ## 📌 About
