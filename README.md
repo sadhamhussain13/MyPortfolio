@@ -204,9 +204,9 @@ I'm open to discussing software development opportunities, projects, and technic
 
 ### Connect with me
 
-* 💻 **GitHub:** `[https://github.com/your-username](https://github.com/sadhamhussain13)`
-* 💼 **LinkedIn:** `[https://www.linkedin.com/in/your-profile](https://www.linkedin.com/in/sadhamhussain-webdeveloper/)`
-* 🌐 **Portfolio:** `https://sshcreations.netlify.app`
+- 💻 **GitHub:** [github.com/sadhamhussain13](https://github.com/sadhamhussain13)
+- 💼 **LinkedIn:** [linkedin.com/in/sadhamhussain-webdeveloper](https://www.linkedin.com/in/sadhamhussain-webdeveloper/)
+- 🌐 **Portfolio:** [sshcreations.netlify.app](https://sshcreations.netlify.app)
 * 📧 **Email:** `sadhamssh13@gmail.com`
 
 ---
