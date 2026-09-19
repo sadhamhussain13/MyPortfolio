@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sadham Hussain's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+    
+</head>
+<body>
+
+<!-- Include this in your <body> -->
+<header class="fixed top-0 left-0 w-full bg-white shadow-md z-50">
+  <div class="container mx-auto px-6 md:px-16 py-3 flex items-center justify-between">
+    <!-- Logo -->
+    <div class="text-xl font-bold text-blue-600">
+      <span class="text-black">S</span>adham <span class="text-black">H</span>ussain.
+    </div>
+
+    <!-- Navlist -->
+    <ul id="navlist" class="hidden md:flex space-x-6 font-medium text-gray-700">
+      <li><a href="#home" class="hover:text-blue-600 transition">Home</a></li>
+      <li><a href="#about" class="hover:text-blue-600 transition">About</a></li>
+      <li><a href="#skills" class="hover:text-blue-600 transition">Skills</a></li>
+      <li><a href="#projects" class="hover:text-blue-600 transition">Projects</a></li>
+      <li><a href="#contact" class="hover:text-blue-600 transition">Contact</a></li>
+    </ul>
+
+    <!-- Mobile Menu Icon -->
+    <div id="menu-icon" class="md:hidden text-2xl text-blue-700 cursor-pointer">
+      <i class='bx bx-menu'></i>
+    </div>
+  </div>
+
+  <!-- Mobile Nav Dropdown -->
+  <ul id="mobile-nav"
+    class="md:hidden hidden flex-col absolute top-[60px] left-0 w-full px-6 py-4 space-y-3 font-medium text-black bg-blue-300 bg-opacity-70 backdrop-blur-sm z-40">
+  <li><a href="#home" class="hover:text-blue-400">Home</a></li>
+  <li><a href="#about" class="hover:text-blue-400">About</a></li>
+  <li><a href="#skills" class="hover:text-blue-400">Skills</a></li>
+  <li><a href="#projects" class="hover:text-blue-400">Projects</a></li>
+  <li><a href="#contact" class="hover:text-blue-400">Contact</a></li>
+</ul>
+
+</header>
+
+ 
+<!-- Home Section -->
+<section id="home" class="flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-20 bg-gray-50 bg-custom" >
+  <div class="max-w-2xl space-y-6">
+    <h1 class="text-4xl md:text-5xl font-bold text-gray-800 text-custom">Hi, I'm Sadham Hussain</h1>
+    <div>
+      <!-- <h3 class="text-xl font-semibold text-gray-700">And I'm</h3> -->
+      <h3 class="text-2xl font-bold text-blue-600">A Passionate Web Developer</h3>
+      <!-- Add more roles below if needed -->
+    </div>
+
+    <p class="text-gray-600 text-lg text-custom">
+      I am a passionate web developer dedicated to creating clean and responsive applications. Eager to embrace new challenges, I strive to expand my knowledge in web development and actively seek opportunities to work on full-stack projects. My goal is to enhance my skills and contribute to innovative solutions in the tech industry.
+    </p>
+
+    <div class="mt-4">
+      <p class="text-gray-700 text-custom"><strong>Email:</strong> sadhamssh13@gmail.com</p>
+    </div>
+
+    <div class="mt-4">
+      <a href="./Image/Sadham.pdf" download="Sadham_Hussain_Resume.pdf" class="inline-block px-6 py-2 bg-green-600 text-white rounded hover:bg-green-700 transition">Download Resume</a>
+    </div>
+
+    <!-- Github and LinkedIn icon -->
+
+    <div class="flex space-x-6 mt-6 text-4xl">
+  <a href="https://www.linkedin.com/in/sadhamhussain-webdeveloper/" class="text-blue-700 hover:text-blue-900 transition-transform hover:scale-110 text-accent">
+    <i class='bx bxl-linkedin'></i>
+  </a>
+  <a href="https://github.com/sadhamhussain13" class="text-gray-800 hover:text-black transition-transform hover:scale-110 text-accent">
+    <i class='bx bxl-github'></i>
+  </a>
+</div>
+
+  </div>
+
+  <div class="flex justify-center items-center p-4">
+  <img 
+    src="./Image/Sadham_Hussain.jpeg" 
+    alt="Portfolio"
+    class="w-full sm:w-2/4 md:w-full lg:w-[300px] h-auto mx-auto rounded-2xl shadow-lg object-contain"
+  />
+</div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-16 px-6 md:px-20 bg-white bg-secondary">
+  <div class="max-w-4xl mx-auto space-y-6 text-center">
+    <span class="text-blue-600 font-semibold uppercase tracking-wide ">Let me introduce myself</span>
+    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 text-custom">About Me</h2>
+    <h3 class="text-xl text-gray-700 text-custom">A Story of Good</h3>
+    <p class="text-gray-600 text-custom">
+      My dedication to learning and my passion for technology have driven me to explore various programming languages and frameworks. I have successfully completed several projects.
+      I believe that continuous learning is key to staying relevant in this industry, and I am committed to keeping up with the latest trends and technologies.
+    </p>
+  </div>
+
+  <div class="mt-12 grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto text-center">
+    <div class="p-4 bg-gray-100 rounded shadow text-accent">
+      <p class="text-3xl font-bold text-blue-600">15+</p>
+      <p class="text-gray-700 mt-2">Projects Completed</p>
+    </div>
+    <div class="p-4 bg-gray-100 rounded shadow">
+      <p class="text-3xl font-bold text-blue-600">4+</p>
+      <p class="text-gray-700 mt-2">Programming Languages</p>
+    </div>
+    <div class="p-4 bg-gray-100 rounded shadow">
+      <p class="text-3xl font-bold text-blue-600">8.4</p>
+      <p class="text-gray-700 mt-2">CGPA in College</p>
+    </div>
+    <div class="p-4 bg-gray-100 rounded shadow">
+      <p class="text-3xl font-bold text-blue-600">Best</p>
+      <p class="text-gray-700 mt-2">Outgoing Student</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- Skills Section -->
+<section id="skills" class="py-16 px-6 md:px-20 bg-gray-50">
+  <div class="max-w-6xl mx-auto text-center">
+    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">My Tech Stack</h2>
+    <p class="text-gray-600 mb-10">Here are the technologies I've worked with</p>
+
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+      
+      <!-- Skill Card -->
+      <div class="bg-white rounded-xl shadow p-6 hover:shadow-lg transition">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" class="w-12 h-12 mx-auto mb-2">
+        <h4 class="text-lg font-semibold text-gray-700">HTML</h4>
+      </div>
+
+      <div class="bg-white rounded-xl shadow p-6 hover:shadow-lg transition">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" class="w-12 h-12 mx-auto mb-2">
+        <h4 class="text-lg font-semibold text-gray-700">CSS</h4>
+      </div>
+
+      <div class="bg-white rounded-xl shadow p-6 hover:shadow-lg transition">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="w-12 h-12 mx-auto mb-2">
+        <h4 class="text-lg md:text-xl font-semibold text-gray-700">JavaScript (ES6)</h4>
+      </div>
+
+      <!-- <div class="bg-white rounded-xl shadow p-6 hover:shadow-lg transition">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" class="w-12 h-12 mx-auto mb-2">
+        <h4 class="text-lg font-semibold text-gray-700">Bootstrap</h4>
+      </div> -->
+
+      <div class="bg-white rounded-xl shadow p-6 hover:shadow-lg transition">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" class="w-12 h-12 mx-auto mb-2" />
+        <h4 class="text-lg font-semibold text-gray-700">Tailwind CSS</h4>
+      </div>
+
+
+      <div class="bg-white rounded-xl shadow p-6 hover:shadow-lg transition">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="w-12 h-12 mx-auto mb-2">
+        <h4 class="text-lg font-semibold text-gray-700">Python</h4>
+      </div>
+
+      <!-- Flask -->
+      <div class="bg-white rounded-xl shadow p-6 hover:shadow-lg transition">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg"
+            alt="Flask"
+            class="w-12 h-12 mx-auto mb-2">
+        <h4 class="text-lg font-semibold text-gray-700">Flask</h4>
+      </div>
+
+      <!-- <div class="bg-white rounded-xl shadow p-6 hover:shadow-lg transition">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" alt="Django" class="w-12 h-12 mx-auto mb-2">
+        <h4 class="text-lg font-semibold text-gray-700">Django</h4>
+      </div> -->
+          
+
+      <div class="bg-white rounded-xl shadow p-6 hover:shadow-lg transition">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" class="w-12 h-12 mx-auto mb-2">
+        <h4 class="text-lg font-semibold text-gray-700">MySQL</h4>
+      </div>
+
+            <!-- React -->
+      <div class="bg-white rounded-xl shadow p-6 hover:shadow-lg transition">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+            alt="React"
+            class="w-12 h-12 mx-auto mb-2">
+        <h4 class="text-lg font-semibold text-gray-700">React</h4>
+      </div>
+
+      <!-- MongoDB -->
+      <div class="bg-white rounded-xl shadow p-6 hover:shadow-lg transition">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
+            alt="MongoDB"
+            class="w-12 h-12 mx-auto mb-2">
+        <h4 class="text-lg font-semibold text-gray-700">MongoDB</h4>
+      </div>
+
+      <!-- Node.js -->
+      <div class="bg-white rounded-xl shadow p-6 hover:shadow-lg transition">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
+            alt="Node.js"
+            class="w-12 h-12 mx-auto mb-2">
+        <h4 class="text-lg font-semibold text-gray-700">Node.js</h4>
+      </div>
+
+      <!-- Express.js -->
+      <div class="bg-white rounded-xl shadow p-6 hover:shadow-lg transition">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"
+            alt="Express.js"
+            class="w-12 h-12 mx-auto mb-2">
+        <h4 class="text-lg font-semibold text-gray-700">Express.js</h4>
+      </div>
+
+      <!-- Git -->
+      <div class="bg-white rounded-xl shadow p-6 hover:shadow-lg transition">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
+            alt="Git"
+            class="w-12 h-12 mx-auto mb-2">
+        <h4 class="text-lg font-semibold text-gray-700">Git</h4>
+      </div>
+
+
+    </div>
+  </div>
+</section>
+
+<!-- Project -->
+    
+<section id="projects" class="py-16 bg-gray-100">
+  <div class="max-w-7xl mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-10 text-gray-800">My Projects</h2>
+
+    <p class="text-center text-gray-600 max-w-2xl mx-auto mb-12">
+  Here are a few projects I’ve built using different tools while learning web development and design.
+</p>
+
+    
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      
+      <!-- Project Card 1 -->
+      <div class=" bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+        <div class="overflow-hidden">
+          <img 
+            src="./Image/1.jpg" 
+            alt="Project Image" 
+            class="w-full h-auto object-cover rounded-t-xl transform hover:scale-105 transition-transform duration-300"
+          />
+        </div>
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Quran App</h3>
+          <p class="text-gray-600 mb-4 text-sm">A simple web application for reading and searching the Qur'an.</p>
+          <a href="quran-app-hnc2.onrender.com/" target="_blank" 
+            class="inline-block px-5 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-300">
+            View Live
+          </a>
+        </div>
+      </div>
+
+      <!-- Project Card 2 -->
+      <div class=" bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+        <div class="overflow-hidden">
+          <img 
+            src="./Image/7.jfif" 
+            alt="Project Image" 
+            class="w-full h-auto object-cover rounded-t-xl transform hover:scale-105 transition-transform duration-300"
+          />
+        </div>
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Maintenance System Website</h3>
+          <p class="text-gray-600 mb-4 text-sm">
+A role-based web application for reporting, managing, assigning, tracking, and resolving maintenance requests.</p>
+          <a href="https://maintenance-system-gh3d.onrender.com/" target="_blank" 
+            class="inline-block px-5 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-300">
+            View Live
+          </a>
+        </div>
+      </div>
+
+      <!-- Project Card 3 -->
+      <div class=" bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+        <div class="overflow-hidden">
+          <img 
+            src="./Image/3.jpg" 
+            alt="Project Image" 
+            class="w-full h-auto object-cover rounded-t-xl transform hover:scale-105 transition-transform duration-300"
+          />
+        </div>
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Leave Management System</h3>
+          <p class="text-gray-600 mb-4 text-sm">A complete, production-style Leave Management System built with MongoDB, Express, React (Vite), and Node.js.</p>
+          <a href="https://github.com/sadhamhussain13/leave-management-system" target="_blank" 
+            class="inline-block px-5 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-300">
+            View on GitHub
+          </a>
+        </div>
+      </div>
+
+            <!-- Project Card 4 -->
+      <div class=" bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+        <div class="overflow-hidden">
+          <img 
+            src="./Image/4.jpg" 
+            alt="Project Image" 
+            class="w-full h-auto object-cover rounded-t-xl transform hover:scale-105 transition-transform duration-300"
+          />
+        </div>
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Restaurant Billing System</h3>
+          <p class="text-gray-600 mb-4 text-sm">A modern Point of Sale (POS) web application designed for small restaurants, cafe shop, built with HTML, CSS (Tailwind), and JavaScript.</p>
+          <a href="sshbillingsystem.netlify.app/" target="_blank" 
+            class="inline-block px-5 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-300">
+            View Live
+          </a>
+        </div>
+      </div>
+
+
+      <!-- Project Card 5 -->
+      <div class=" bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+        <div class="overflow-hidden">
+          <img 
+            src="./Image/5.jpg" 
+            alt="Project Image" 
+            class="w-full h-auto object-cover rounded-t-xl transform hover:scale-105 transition-transform duration-300"
+          />
+        </div>
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Notes App</h3>
+          <p class="text-gray-600 mb-4 text-sm">A full-stack notes application built with the MERN stack (MySQL, Express.js, React.js, Node.js).</p>
+          <a href="https://github.com/sadhamhussain13/Notes_App_MERN" target="_blank" 
+            class="inline-block px-5 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-300">
+            View on GitHub
+          </a>
+        </div>
+      </div>
+
+      <!-- Project Card 6 -->
+      <div class=" bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+        <div class="overflow-hidden">
+          <img 
+            src="./Image/4.jpg" 
+            alt="Project Image" 
+            class="w-full h-auto object-cover rounded-t-xl transform hover:scale-105 transition-transform duration-300"
+          />
+        </div>
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Finance Tracker Web App</h3>
+          <p class="text-gray-600 mb-4 text-sm">A simple finance tracker to manage expenses, track income, and visualize spending habits.</p>
+          <a href="https://github.com/sadhamhussain13/Finance-Tracker" target="_blank" 
+            class="inline-block px-5 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-300">
+            View on GitHub
+          </a>
+        </div>
+      </div>
+
+      <!-- Add more cards below as needed -->
+
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+
+<section id="contact" class="py-16 px-6 md:px-20 bg-white">
+  <div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Contact Me</h2>
+    <p class="text-gray-600 mb-10">If you’re interested in working with me or have any inquiries, feel free to send me a message!</p>
+
+    <form id="contact-form" action="https://formspree.io/f/mwpojwnn" method="POST" class="grid gap-6 text-left">
+      <div>
+        <label for="name" class="block mb-2 text-gray-700 font-medium">Name</label>
+        <input type="text" id="name" name="name" required class="w-full p-3 border border-gray-300 rounded-xl text-black focus:outline-none focus:ring-1 focus:ring-blue-500">
+      </div>
+
+      <div>
+        <label for="email" class="block mb-2 text-gray-700 font-medium">Email</label>
+        <input type="email" id="email" name="email" required class="w-full p-3 border border-gray-300 rounded-xl text-black focus:outline-none focus:ring-1 focus:ring-blue-500">
+      </div>
+
+      <div>
+        <label for="message" class="block mb-2 text-gray-700 font-medium">Message</label>
+        <textarea id="message" name="message" rows="5" required class="w-full p-3 border border-gray-300 rounded-xl text-black focus:outline-none focus:ring-1 focus:ring-blue-500"></textarea>
+      </div>
+
+      <button type="submit" class="bg-blue-600 text-white py-3 px-6 rounded-xl hover:bg-blue-700 transition w-full md:w-auto mx-auto">
+        Send Message
+      </button>
+    </form>
+
+    <!-- Hidden Thank You Message -->
+    <p id="thank-you" class="text-green-600 text-lg mt-6 hidden">Thank you! Your message has been sent. 😊</p>
+  </div>
+</section>
+
+
+
+
+
+  
+    <!-- Footer Section -->
+
+<!-- <footer>
+    <p class="scroll-scale">Made by &#10084 with Hussain</p>
+    <a class="scroll-scale" href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+</footer> -->
+
+<footer class="bg-grey-300 bg-opacity-100 text-white py-4 w-full">
+  <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
+    
+    <p class="text-sm scroll-scale">&copy; 2025 Made with ❤️ by Hussain</p>
+    
+    <a href="#home" class="scroll-scale">
+  <div class="w-10 h-10 bg-white text-gray-800 rounded-full flex items-center justify-center hover:bg-blue-500 hover:text-white transition">
+    <i class='bx bx-up-arrow-alt text-2xl'></i>
+  </div>
+</a>
+  </div>
+</footer>
+
+
+
+<!-- <script>
+  // Mobile Menu Toggle
+  const menuIcon = document.getElementById('menu-icon');
+  const mobileNav = document.getElementById('mobile-nav');
+  const navlist = document.getElementById('navlist');
+
+  menuIcon.addEventListener('click', () => {
+    mobileNav.classList.toggle('hidden');
+    navlist.classList.toggle('hidden');
+  });
+  </script> -->
+
+</body>
+</html>
